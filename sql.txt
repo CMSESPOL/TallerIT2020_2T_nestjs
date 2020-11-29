@@ -4,6 +4,9 @@ db2: celulito_prod
 user: celulito
 clave: celu$2525UZ
 
+CREATE DATABASE celulito_dev;
+CREATE DATABASE celulito_prod;
+
 CREATE USER celulito WITH PASSWORD 'celu$2525UZ';
 GRANT ALL PRIVILEGES ON DATABASE "celulito_dev" TO celulito;
 GRANT ALL PRIVILEGES ON DATABASE "celulito_prod" TO celulito;
