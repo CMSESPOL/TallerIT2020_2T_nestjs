@@ -1,0 +1,9 @@
+db1: celulito_dev
+db2: celulito_prod
+
+user: celulito
+clave: celu$2525UZ
+
+CREATE USER celulito WITH PASSWORD 'celu$2525UZ';
+GRANT ALL PRIVILEGES ON DATABASE "celulito_dev" TO celulito;
+GRANT ALL PRIVILEGES ON DATABASE "celulito_prod" TO celulito;
